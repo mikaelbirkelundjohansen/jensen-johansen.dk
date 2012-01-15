@@ -1,0 +1,72 @@
+/* Layout */
+	
+.vcard, .front, .vcardwrap {
+  z-index: 1;
+  width: 630px;
+  margin: 0 auto;
+}
+	
+.vcardwrap {
+  overflow: hidden;
+}
+
+.vcard, .front {
+  overflow: hidden;
+  position: relative;
+  width: 630px;
+  padding: 0;
+  z-index: 10;
+}
+	
+.vcard>* {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.vcard p {
+  padding-bottom: 47px;
+}
+	
+.front:before, .front:after {
+  top: 133px;
+}
+	
+.front:hover:before {
+  background-position: -630px 0;
+}
+
+.front:hover:after {
+  background-position: -630px -7px;
+}
+
+.vcard:after, .front:after {
+  left: auto;
+  right: 0;
+}
+
+header {
+  padding: 47px 0 30px;
+}
+
+header p:before {
+  content: " · ";
+}
+
+.adr, .tel, .vcard dl, .email {
+  width: 263px;
+}
+	
+.adr, .tel {
+  float: left;
+  clear: left;
+  margin-right: 4px;
+}
+	
+dl {
+  border-top: 1px solid #e1e2e0;
+  padding-top: 6px;
+}
+
+.vcard dl, .email {
+  margin-left: 0;
+}

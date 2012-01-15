@@ -1,0 +1,94 @@
+/* Reset */
+
+@import url(reset.css);
+
+/* Basics */
+
+html, body {
+  background: #3b4652;
+  color: #697b8c;
+  font: normal 13px/20px 'gill sans', 'gill sans mt', calibri, sans-serif;
+}
+	
+body {
+  padding: 20px;
+}
+	
+h1, h2, h3 {
+  font-weight: 400;
+}
+	
+h2 {
+  font-size: 12px;
+  clear: both;
+  margin: 40px 0 5px;
+  padding: 0 0 5px;
+  text-transform: uppercase;
+}
+	
+h2, dl, .adr, .tel, .email {
+  padding: 0 0 5px;
+  border-bottom: 1px solid #e1e2e0;
+}
+
+ul {
+  overflow: hidden;
+  margin: 0;
+  padding: 0 0 1px;
+  list-style: none;
+}
+
+a, a:link, a:visited {
+  color: #4d5c6b;
+  text-decoration: none; 
+}
+
+a:focus, a:hover {
+  color: #dc281e;
+}
+	
+dl, .adr, .tel, .email {
+  display: block;
+  overflow: hidden;
+  margin: 0 0 5px;
+}
+	
+.adr {
+  border-top: 1px solid #e1e2e0;
+  padding-top: 6px;
+}
+	
+dt {
+  clear: left;
+  float: left;
+  width: 3.5em;
+}
+	
+dd {
+  float: left;
+}
+
+/* Layout */
+
+.vcard, .front {
+  position: relative;
+  padding: 0 20px 17px;
+  background: #f7f7f5;
+  color: #24282b;
+}
+
+header {
+  padding: 17px 0 30px;
+}
+
+h1, header p {
+  display: inline;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #dc281e;
+}
+	
+h1 a.fn {
+  color: #dc281e !important;
+}
